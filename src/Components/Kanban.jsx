@@ -66,6 +66,7 @@ const onDragEnd = (result, columns, setColumns) => {
 
 export default function Kanban() {
   const [columns, setColumns] = useState(columnsData)
+  console.log('hey')
   return(
     <DragDropContext onDragEnd={result => onDragEnd(result, columns, setColumns)}>
         {Object.entries(columns).map(([id, column]) => {

@@ -13,11 +13,14 @@
   border: 1px solid violet;
   height: 30%;
   width: 100%;
+  display: flex;
+
 }
 .functionConstructorContainer{
   border: 1px solid black;
   height: 70%;
   width: 100%;
+  display: flex;
 }
 .operandContainer{
   border: 1px solid orange;
@@ -30,4 +33,13 @@
   width: 150px;
   border-radius: 8px;
   margin: 8px;
+}
+.operators {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+  border-radius: 50%;
 }
