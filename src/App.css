@@ -10,3 +10,12 @@
   min-height: 100vh;
   background: rgb(161, 184, 161);
 }
+.nav{
+  display: flex;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 24px;
+  text-decoration: none;
+}
