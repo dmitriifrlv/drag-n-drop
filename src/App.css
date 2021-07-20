@@ -1,16 +1,16 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.App{
+.App {
   display: flex;
   justify-content: center;
   min-height: 100vh;
-  background: rgb(161, 184, 161);
+  background: #4badce;
 }
-.nav{
+.nav {
   display: flex;
   border: 1px solid black;
   justify-content: center;
